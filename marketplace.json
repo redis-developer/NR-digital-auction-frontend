@@ -1,7 +1,7 @@
 {
     "app_name": "NR-digital-auction-frontend",
     "description": "Front end app for SaaS platform for conducting next generation Digital Auctions.", 
-    "hidden": "false", 
+    "hidden": "true", 
     "rank": "100", 
     "type": "Building Block",
     "contributed_by": "Redis Labs",
