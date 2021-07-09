@@ -38,8 +38,8 @@
         "SCAN",
         "DEL"
     ], 
-    "redis_features": ["Redis Cloud", "RedisJSON"],
-    "redis_modules": ["RedisJSON", "Redis Cloud"], 
+    "redis_features": [],
+    "redis_modules": ["RedisJSON"], 
     "app_image_urls": ["https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/HomePage.png", "https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/Signup.png", "https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/SignIn.png", "https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/Dashboard.png", "https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/AuctionItems.png", "https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/ItemBiddingPage.png", "https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/BiddingRealTimeUpdate.png"],
     "youtube_url": "",
     "special_tags": ["Redis Hackathon"],
