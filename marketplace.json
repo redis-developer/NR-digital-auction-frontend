@@ -7,7 +7,7 @@
     "repo_url": "https://github.com/redis-developer/NR-digital-auction-frontend",
     "download_url": "https://github.com/redis-developer/NR-digital-auction-frontend/archive/refs/heads/main.zip",
     "hosted_url": "https://main.d30vuxu5b3ty01.amplifyapp.com/",
-    "quick_deploy": "true",
+    "quick_deploy": "false",
     "deploy_buttons": [
     {
       "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/NR-digital-auction-frontend"
