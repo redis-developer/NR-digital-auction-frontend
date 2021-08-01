@@ -5,6 +5,7 @@
     "type": "Building Block",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/NR-digital-auction-frontend",
+    "preview_image_url": "https://raw.githubusercontent.com/redis-developer/NR-digital-auction-frontend/master/images/app_preview_image.png",
     "download_url": "https://github.com/redis-developer/NR-digital-auction-frontend/archive/refs/heads/main.zip",
     "hosted_url": "https://main.d30vuxu5b3ty01.amplifyapp.com/",
     "quick_deploy": "false",
