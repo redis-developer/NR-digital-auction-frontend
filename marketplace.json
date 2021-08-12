@@ -41,7 +41,7 @@
     ], 
     "redis_features": [],
     "redis_modules": ["RedisJSON"], 
-    "app_image_urls": [""],
+    "app_image_urls": [],
     "youtube_url": "https://www.youtube.com/watch?v=jgRmq3VbAFw",
     "special_tags": ["Hackathon"],
     "verticals": ["Digital Auction"],
