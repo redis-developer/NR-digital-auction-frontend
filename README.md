@@ -1,5 +1,5 @@
 ## Backend
-Found [here](https://github.com/parthiban62/NR-digital-auction-backend)
+Found [here](https://github.com/redis-developer/NR-digital-auction-backend)
 
 ## Problem
 The idea we present is to create a SaaS platform for conducting next generation Digital Auctions.
@@ -119,19 +119,19 @@ Installation steps:
 
 
 ## App Details
-* Demo Link:[Digital Auction App](https://main.d30vuxu5b3ty01.amplifyapp.com/)
+
 * Screenshots <br>
   * Home page
-    ![Screenshot](https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/HomePage.png)
+    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/HomePage.png)
   * SignUp
-    ![Screenshot](https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/Signup.png)
+    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/Signup.png)
   * SignIn
-    ![Screenshot](https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/SignIn.png)
+    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/SignIn.png)
   * Dashboard
-    ![Screenshot](https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/Dashboard.png)
+    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/Dashboard.png)
   * Auction Items
-    ![Screenshot](https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/AuctionItems.png)
+    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/AuctionItems.png)
   * Bidding Page
-    ![Screenshot](https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/ItemBiddingPage.png)
+    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/ItemBiddingPage.png)
   * Bidding Realtime Updates
-    ![Screenshot](https://github.com/parthiban62/NR-digital-auction-backend/blob/main/screenshots/BiddingRealTimeUpdate.png)
+    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/BiddingRealTimeUpdate.png)
