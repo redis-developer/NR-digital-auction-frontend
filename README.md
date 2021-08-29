@@ -44,7 +44,7 @@ The idea we present is to create a SaaS platform for conducting next generation 
 * Real time event handling - Socket.IO
 * Compute - Lambda
 * Notifications - Amazon SNS/Amzon SES
-* Hosted details: https://main.d30vuxu5b3ty01.amplifyapp.com/
+
 
 ## How it Works
 ### How the data is stored
