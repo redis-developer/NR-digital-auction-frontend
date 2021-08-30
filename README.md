@@ -122,16 +122,16 @@ Installation steps:
 
 * Screenshots <br>
   * Home page
-    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/HomePage.png)
+    ![Screenshot](https://raw.githubusercontent.com/redis-developer/NR-digital-auction-backend/main/screenshots/HomePage.png)
   * SignUp
-    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/Signup.png)
+    ![Screenshot](https://raw.githubusercontent.com/redis-developer/NR-digital-auction-backend/main/screenshots/Signup.png)
   * SignIn
-    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/SignIn.png)
+    ![Screenshot](https://raw.githubusercontent.com/redis-developer/NR-digital-auction-backend/main/screenshots/SignIn.png)
   * Dashboard
-    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/Dashboard.png)
+    ![Screenshot](https://raw.githubusercontent.com/redis-developer/NR-digital-auction-backend/main/screenshots/Dashboard.png)
   * Auction Items
-    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/AuctionItems.png)
+    ![Screenshot](https://raw.githubusercontent.com/redis-developer/NR-digital-auction-backend/main/screenshots/AuctionItems.png)
   * Bidding Page
-    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/ItemBiddingPage.png)
+    ![Screenshot](https://raw.githubusercontent.com/redis-developer/NR-digital-auction-backend/main/screenshots/ItemBiddingPage.png)
   * Bidding Realtime Updates
-    ![Screenshot](https://github.com/redis-developer/NR-digital-auction-backend/blob/main/screenshots/BiddingRealTimeUpdate.png)
+    ![Screenshot](https://raw.githubusercontent.com/redis-developer/NR-digital-auction-backend/main/screenshots/BiddingRealTimeUpdate.png)
