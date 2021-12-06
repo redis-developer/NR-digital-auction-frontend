@@ -1,6 +1,6 @@
 # Building a Next Generation Digital Auction SaaS Platform using React, AWS Lambda  and Redis
 
-![Screenshot](https://raw.githubusercontent.com/redis-developer/NR-digital-auction-frontend/master/digitalauction.png)
+![Screenshot](https://raw.githubusercontent.com/redis-developer/NR-digital-auction-frontend/master/digtalauction.png)
 
 This application allow users to attend and take part in digital auctions. It allows users to create an account, put in bids and even set up their own auction. 
 
