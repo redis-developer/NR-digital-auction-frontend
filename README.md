@@ -1,49 +1,33 @@
-## Backend
-Found [here](https://github.com/redis-developer/NR-digital-auction-backend)
+# Building a Next Generation Digital Auction SaaS Platform using React, AWS Lambda  and Redis
 
-## Problem
-The idea we present is to create a SaaS platform for conducting next generation Digital Auctions.
-
-## Proposed Solution
-* A multi-tenant platform where the auctioneer can signup, set up bidding and conduct auctions.
-* Any authorized user can place bids and view the bidding updates realtime.
-* Dynamic auction closing based on last bid time.
+This application allow users to attend and take part in digital auctions. It allows users to create an account, put in bids and even set up their own auction. 
 
 ## Features
-* Auctioneer signup and set up the site's look and feel.
-* Create new auctions (specify minimum bid amount, bid increment, slot start and end time, etc.)
-* User - Signup, Sign in and Forgot Password
-* View all Auctions & Place Bid
-* Real time updates for Biddings placed by various users
 
-## POC
-* In POC, we have created a NodeJS based application which connects to Redis Cloud Database. 
-* The Redis database is using RedisJSON module to enable usage of JSON data. 
-* Real time update of bidding dashboard is enabled usin Socket.IO
-* We were able to build an Auction engine with Dynamic Closing and Real time events.
-* We have built a single monolithic application to test how we can make use of Redis Cloud.
-* We are working on modules for integrating the multi-tenant mode.
+- A multi-tenant platform where the auctioneer can signup, set up bidding and conduct auctions.
+- Any authorized user can place bids and view the bidding updates realtime.
+- Dynamic auction closing based on last bid time.
+- Auctioneer signup and set up the site's look and feel.
+- Create new auctions (specify minimum bid amount, bid increment, slot start and end time, etc.)
+- User - Signup, Sign in and Forgot Password
+- View all Auctions & Place Bid
+- Real time updates for Biddings placed by various users
 
-## Future Enhancements
-1. Enable multi-tenancy - White labelling to allow auctioneers to sign up and set up landing page and create auctions on their behalf.
-2. Session Management - Integrate with Redis for user management.
-3. Enable reporting and analytics
-4. Integrate with third party Payment Gateway for settling auctions.
-5. Enable notification - using SNS, SES Notifications
-6. ETL module - Data to Amazon S3 Data Lake or RedShift for future audits
-7. Microservices implementation 
-8. CI/CD pipelines for deployments
+## Architecture
+
+![My Image](architecture.png)
+
+## Tech Stack
 
 
-## Technology Stack
-* A React frontend website hosted using Amazon S3 and served via AWS CloudFront
-* Backend - NodeJS
-* Authentication - Amazon Cognito
-* Database - Redis Cloud
-* Redis Modules - RedisJSON
-* Real time event handling - Socket.IO
-* Compute - Lambda
-* Notifications - Amazon SNS/Amzon SES
+- [NodeJS as a Backend](https://nodejs.org/en/): used as an open-source, cross-platform, backend JavaScript runtime environment that executes Javascript code outside a web browser.
+- [Amazon Cognito for Authentication](https://aws.amazon.com/es/cognito/): used to securely manage and synchronize app data for users on mobile.
+- [Redis Enterprise Cloud as a Database ](https://redis.com/redis-enterprise-cloud/overview/): used as a real-time database, cache, and message broker
+- [RedisJSON as a Redis Module](https://oss.redis.com/redisjson/#:~:text=RedisJSON%20is%20a%20Redis%20module,from%20Redis%20keys%20(documents).&text=Documents%20are%20stored%20as%20binary,fast%20access%20to%20sub%2Delements): used to store, update and fetch JSON values from Redis keys.  
+- [Socket.IO for Real-time Event Handling](https://socket.io/docs/v4/): used as a library that provides real-time, bi-directional and event-based communication between the browser and the server. 
+- [AWS Lambda for Compute](https://aws.amazon.com/es/lambda/): used a serverless compute service that runs your code in response events and manages the underlying compute service automatically for you.
+- [Amazon SNS/Amazon SES for Notification](https://aws.amazon.com/sns/): a fully managed messaging service for both application-to-application (A2A) and application-to-person (A2P) communication.
+
 
 
 ## How it Works
@@ -87,6 +71,7 @@ The idea we present is to create a SaaS platform for conducting next generation 
      * email id serves as the key
      * JSON data which includes keys -- serves as value
      * NodeJS uses 'redis' module to work with Redis Cloud. The redis client is created using the Redis credentials and hmset() equivalent of HMSET command is used to push data to Redis database. 
+
 ### How the data is accessed
   * All auctions
       * NodeJS connects to Redis Cloud database. Frontend communicates with NodeJS backend through API calls.
@@ -105,8 +90,10 @@ The idea we present is to create a SaaS platform for conducting next generation 
       * GET : /api/users/{email}
       * NodeJS uses 'redis' module to work with Redis Cloud. The redis client is created using the Redis credentials and hmget() equivalent of HMGET command is used to get data from Redis database.
 
-## Installation
+## Getting Started 
+
 Installation steps:
+
 ### Prerequisites
 
 - Node JS
