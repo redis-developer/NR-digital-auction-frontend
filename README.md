@@ -15,7 +15,7 @@ This application allow users to attend and take part in digital auctions. It all
 
 ## Architecture
 
-![My Image](architecture.png)
+![My Image](https://raw.githubusercontent.com/redis-developer/NR-Digital-auction-frontend/master/architecture.png)
 
 ## Tech Stack
 
