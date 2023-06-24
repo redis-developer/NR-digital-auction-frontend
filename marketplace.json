@@ -1,7 +1,7 @@
 {
     "app_name": "Next Gen Digital Auction",
-    "description": "Front end app for SaaS platform for conducting next generation Digital Auctions.", 
-    "rank": 150, 
+    "description": "Front end app for SaaS platform for conducting next generation Digital Auctions.",
+    "rank": 150,
     "type": "Building Block",
     "contributed_by": "Community",
     "repo_url": "https://github.com/redis-developer/NR-digital-auction-frontend",
@@ -13,7 +13,7 @@
     {
       "heroku": "https://heroku.com/deploy?template=https://github.com/redis-developer/NR-digital-auction-frontend"
     },
-   
+
     {
       "Google": "https://deploy.cloud.run/?git_repo=https://github.com/redis-developer/NR-digital-auction-frontend"
     }
@@ -38,9 +38,9 @@
         "SINTER",
         "SCAN",
         "DEL"
-    ], 
-    "redis_features": [],
-    "redis_modules": ["RedisJSON"], 
+    ],
+    "redis_use_cases": [],
+    "redis_features": ["JSON"],
     "app_image_urls": [],
     "youtube_url": "https://www.youtube.com/watch?v=jgRmq3VbAFw",
     "special_tags": ["Hackathon"],
